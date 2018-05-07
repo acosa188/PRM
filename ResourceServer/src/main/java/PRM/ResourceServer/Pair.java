@@ -2,16 +2,16 @@ package PRM.ResourceServer;
 
 public class Pair extends Object{
 
-	String time;
+	String task;
 	Object resource;
 	
-	public Pair(String wtime, Object wresource) {
-		time = wtime;
+	public Pair(String wtask, Object wresource) {
+		task = wtask;
 		resource = wresource;
 	}
 	
 	public String getTime() {
-		return time;
+		return task;
 	}
 	
 	public Object getResource() {
